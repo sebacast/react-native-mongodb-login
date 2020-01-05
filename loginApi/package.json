@@ -1,0 +1,24 @@
+{
+  "name": "loginapi",
+  "version": "1.0.0",
+  "description": "Api express para el login",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.2",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.2",
+    "python-shell": "^1.0.8"
+  },
+  "author": "Sebastian Castillo Rivero",
+  "license": "ISC"
+}
