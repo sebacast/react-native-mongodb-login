@@ -25,6 +25,7 @@ des: enviar código de verificación al email (usando modulo nodemailer) // send
 url: '/vercodigo
 method: post
 des: verificar email y código // verify email & code // (api express - mongodb)
+![Optional Text](./login.jpeg)
 
 
 
