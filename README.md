@@ -1,5 +1,4 @@
 # react-native-mongodb-login
-Modulo en desarrollo
 react native, react native navigation & redux (views)
 express (api)
 mongodb (db)
