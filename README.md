@@ -5,18 +5,18 @@
 ## Pasos para el Login
 - Primero se ingresa el email, para el envío del código
 - Deberá ingresarse un email válido
-![react-native-mongodb-login](./imagenes/error1.png)
-![react-native-mongodb-login](./imagenes/1.png)
 - El componente Login (loginApp) enviará una petición post a la ruta principal de nuestro loginApp.
-![react-native-mongodb-login](./imagenes/2.png)
 - La api (express js), recibirá la peticion, y enviará un email (usando modulo nodemailer) con el código de verificación.
-![react-native-mongodb-login](./imagenes/3.png)
 - Tendremos que haber configurado previamente las opciones del modulo nodemailer
-![react-native-mongodb-login](./imagenes/6.png)
 - Una vez obtenido el código, lo ingresamos
 - Si el código, o el email es incorrecto, no se podrá acceder
-![react-native-mongodb-login](./imagenes/error2.png)
 - Si el email y el código son correctos, se redireccionará a la pantalla principal (usando react navigation)
+![react-native-mongodb-login](./imagenes/1.png)
+![react-native-mongodb-login](./imagenes/error1.png)
+![react-native-mongodb-login](./imagenes/2.png)
+![react-native-mongodb-login](./imagenes/3.png)
+![react-native-mongodb-login](./imagenes/6.png)
+![react-native-mongodb-login](./imagenes/error2.png)
 ![react-native-mongodb-login](./imagenes/4.png)
 ![react-native-mongodb-login](./imagenes/5.png)
 
