@@ -1,5 +1,5 @@
 # react-native-mongodb-login
-## Módulo de Login usando verificación por mail
+## Login usando verificación por mail
 ![react-native-mongodb-login](./imagenes/0.png)
 
 ## Pasos para el Login
