@@ -35,7 +35,7 @@ class Login extends Component {
     if (valido && valido === true) {
       let mensaje = { mensaje: 'Se envió el código de verificación al email ingresado', error: false }
       this.props.dispatch(updateMensajeAcc(mensaje))
-      let url = 'URL API AUT';
+      let url = 'URL-API/';
       let login = { email: email.toLowerCase() };
       fetch(url, {
         method: 'POST',
